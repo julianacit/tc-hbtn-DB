@@ -1,3 +1,5 @@
+import java.sql.*;
+
 public interface ClienteDAO {
     public Connection connect(String urlConexao);
     public void createTable(String urlConexao);
